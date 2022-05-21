@@ -34,6 +34,23 @@ img {
     padding-bottom: 50px;
 }
 
+.toggle-btn {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-btn .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
 
 .topnav {
     background-color: rgb(133, 106, 66);
@@ -62,7 +79,7 @@ img {
 .topnav-right {
     font-size: 20px;
     float: right;
-    padding: 10px 10px 0 0;
+    padding: 10px   ;
 }
 
 .topnav-left {
@@ -221,5 +238,13 @@ button {
     .column-one, .column-two, .first, .topnav-left, .topnav-right, .topnav a, .contact-form {
         width:100%;
         overflow:hidden;
+    }
+
+    .toggle-btn {
+        display: flex;
+    }
+
+    .topnav-right {
+        /* display: none; */
     }
 }
