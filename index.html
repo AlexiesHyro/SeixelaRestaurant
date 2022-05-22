@@ -12,23 +12,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="topnav">
-            <div class="topnav-left">
-                <p style="justify-content: left;"><span style="color: #ffffff;">Seixela</span>'s restaurant</p>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo"><span style="color: #ffffff;"></span>Seixela</span>'s restaurant</a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" target="_top">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Food Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+    
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-            <div class="topnav-right">
-                <a href="#" target="_top">Home</a>
-                <a href="#food-menu"> Food Menu</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-        <a href="#" class="toggle-btn">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-    </nav>
+        </nav>
+    </header>
+    
 
     <section class="first">
         <div class="container">
@@ -135,5 +142,6 @@
 			</form>
 		</div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
