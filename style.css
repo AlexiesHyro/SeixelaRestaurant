@@ -17,9 +17,10 @@ section {
 
 header {
     background-color: #83652E;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
+    font-size: 16px;
+    border: #5e4927 4px solid;
 }
 
 li {
@@ -27,7 +28,7 @@ li {
 }
 
 a {
-    color: #ffffff;
+    color: #dfdbdb;
     text-decoration: none;
 }
 
@@ -68,7 +69,6 @@ a {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #ffae00;
 }
@@ -254,10 +254,11 @@ button {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 20px;
+        top: 28px;
         gap: 0;
         flex-direction: column;
         background-color: #5E493B;
+        border: #9b7944 2px solid;
         width: 100%;
         text-align: center;
         transition: 0.3s;
