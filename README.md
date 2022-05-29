@@ -6,6 +6,16 @@
 
 - [Live](https://alexieshyro.me/SeixelaRestaurant/ "Live View")
 
+## Screenshots
+-
+-
+-
+
+## Author
+-
+-
+-
+
 ## 🤝 Support
 
 Contributions, issues, and feature requests are welcome!
