@@ -33,4 +33,4 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project! Thank you!
